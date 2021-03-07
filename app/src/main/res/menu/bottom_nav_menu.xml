@@ -7,6 +7,11 @@
         android:title="@string/ic_home"
         app:showAsAction="ifRoom" />
     <item
+        android:id="@+id/addPageFragment"
+        android:icon="@drawable/ic_add"
+        android:title="@string/ic_add"
+        app:showAsAction="ifRoom" />
+    <item
         android:id="@+id/profileFragment"
         android:icon="@drawable/ic_person"
         android:title="@string/ic_person"
