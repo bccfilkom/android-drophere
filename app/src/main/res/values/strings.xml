@@ -3,6 +3,9 @@
     <string name="app_name">Drophere</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--Message String-->
+    <string name="text_late">Late</string>
+    <string name="text_on_time">On Time</string>
     <!--Icon String-->
     <string name="ic_drive">Google Drive</string>
     <string name="ic_dropbox">Dropbox</string>
@@ -10,6 +13,11 @@
     <string name="ic_home">Home</string>
     <string name="ic_person">Profile</string>
     <string name="ic_add">Add</string>
+    <string name="ic_more">More</string>
+    <string name="ic_copy">Copy</string>
+    <string name="img_profile">Profile Illustration</string>
+    <string name="img_upload">Upload Illustration</string>
+    <string name="ic_download">Download</string>
     <!--landing page strings-->
     <string name="tv_splash_info">File upload facility that is integrated with Google Drive and Dropbox cloud storage</string>
     <string name="tv_powered_by">Powered By</string>
@@ -24,7 +32,35 @@
     <string name="til_name">Full Name</string>
     <string name="til_pass_helper">8 Character Minimum, Letter and Number Combination</string>
     <string name="til_confirm_pass">Confirm Password</string>
-    <string name="tv_forgot_title">Dont Panic</string>
-    <string name="tv_forgot_info">Give us your registered email, and we willl take care of the rest. Do not forget to check the incoming contact for the password reset link</string>
+    <string name="tv_forgot_title">Do not Panic</string>
+    <string name="tv_forgot_info">Give us your registered email, and we will take care of the rest. Do not forget to check the incoming contact for the password reset link</string>
     <string name="btn_reset">Reset Password</string>
+    <!--Profile page strings-->
+    <string name="tv_profile_title">Hello This is Your Personal Space</string>
+    <string name="tv_profile_info">Change your personal information and adjust the cloud storage access that you integrate</string>
+    <string name="tv_personal_information">Personal Information</string>
+    <string name="btn_save_change">Save Change</string>
+    <string name="tv_change_password">Change Password</string>
+    <string name="til_current_password">Current Password</string>
+    <string name="til_new_pass">New Password</string>
+    <string name="til_confirm_password">Confirm Password</string>
+    <!--Main page strings-->
+    <string name="tv_main_title">Manage Pages</string>
+    <string name="tv_main_information">Find your submission page here. But it looks like you do not have one yet.</string>
+    <string name="btn_submit_file">Submit File</string>
+    <string name="tv_unique_code">Unique Submission Code</string>
+    <string name="tv_dialog_insert_title">Submit File with Unique Code</string>
+    <string name="til_unique_code">Enter Unique Code</string>
+    <string name="btn_enter">Enter</string>
+    <string name="tv_upload_title">Waiting is not good. So do not late to submit it</string>
+    <string name="tv_upload_info">Submission %1$s. Do not forget to always maintain honesty</string>
+    <string name="tv_remaining_time">Remaining Time</string>
+    <string name="btn_upload_file">Upload File</string>
+    <string name="tv_create_new_page">Create New Page</string>
+    <string name="tv_create_title">Give Us Your Page Basic Information</string>
+    <string name="sw_pass">Use Password</string>
+    <string name="til_title">Title</string>
+    <string name="til_desc">Description</string>
+    <string name="sw_deadline">Set Deadline</string>
+    <string name="til_date">Deadline Date</string>
 </resources>
