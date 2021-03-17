@@ -6,4 +6,8 @@
     <color name="colorText">#293D5B</color>
     <color name="colorLogo">#C6C6C6</color>
     <color name="colorBackground">#F4F6F8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red_status">#FF4E36</color>
+    <color name="green_status">#02C798</color>
 </resources>
