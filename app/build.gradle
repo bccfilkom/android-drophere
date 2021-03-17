@@ -35,6 +35,14 @@ android {
     buildFeatures{
         viewBinding true
     }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
 }
 
 dependencies {
@@ -45,14 +53,18 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     implementation 'androidx.viewpager2:viewpager2:1.0.0'
     implementation 'com.google.android.material:material:1.4.0-alpha01'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+
+    //image loader
+    implementation 'io.coil-kt:coil:1.1.1'
 
     //navigation component
-    implementation "androidx.navigation:navigation-fragment-ktx:2.3.3"
-    implementation "androidx.navigation:navigation-ui-ktx:2.3.3"
+    implementation "androidx.navigation:navigation-fragment-ktx:2.3.4"
+    implementation "androidx.navigation:navigation-ui-ktx:2.3.4"
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 
     //unit testing
-    testImplementation 'junit:junit:4.13.1'
+    testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 }
