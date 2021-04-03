@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_landing"
-    app:startDestination="@id/loginFragment">
+    app:startDestination="@id/carouselFragment">
     <fragment
         android:id="@+id/loginFragment"
         android:name="com.bcc.drophere.ui.fragment.landing.LoginFragment"
@@ -32,4 +32,15 @@
         android:name="com.bcc.drophere.ui.fragment.landing.ForgotPassFragment"
         android:label="fragment_forgot_pass"
         tools:layout="@layout/fragment_forgot_pass" />
+    <fragment
+        android:id="@+id/carouselFragment"
+        android:name="com.bcc.drophere.ui.fragment.landing.CarouselFragment"
+        android:label="CarouselFragment">
+        <action
+            android:id="@+id/action_carouselFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_carouselFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
 </navigation>

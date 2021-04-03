@@ -8,9 +8,41 @@
         android:id="@+id/mainFragment"
         android:name="com.bcc.drophere.ui.fragment.main.MainFragment"
         android:label="fragment_main"
-        tools:layout="@layout/fragment_main" />
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_detailPageFragment"
+            app:destination="@id/detailPageFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_uploadFragment"
+            app:destination="@id/uploadFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailPageFragment"
+        android:name="com.bcc.drophere.ui.fragment.main.DetailPageFragment"
+        android:label="fragment_detail_page"
+        tools:layout="@layout/fragment_detail_page">
+        <argument
+            android:name="code"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/uploadFragment"
+        android:name="com.bcc.drophere.ui.fragment.main.UploadFragment"
+        android:label="fragment_upload"
+        tools:layout="@layout/fragment_upload" />
     <fragment
         android:id="@+id/profileFragment"
         android:name="com.bcc.drophere.ui.fragment.profile.ProfileFragment"
-        android:label="ProfileFragment" />
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/addPageFragment"
+        android:name="com.bcc.drophere.ui.fragment.main.AddPageFragment"
+        android:label="fragment_add_page"
+        tools:layout="@layout/fragment_add_page">
+        <action
+            android:id="@+id/action_addPageFragment_to_detailPageFragment"
+            app:destination="@id/detailPageFragment"
+            app:popUpTo="@id/mainFragment" />
+    </fragment>
 </navigation>
