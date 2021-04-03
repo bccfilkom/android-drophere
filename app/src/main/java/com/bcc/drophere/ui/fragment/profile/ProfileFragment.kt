@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.bcc.drophere.databinding.FragmentProfileBinding
 
-class ProfileFragment : Fragment() {
+class ProfileFragment : Fragment(), View.OnClickListener {
 
     private var _binding: FragmentProfileBinding? = null
     private val binding get() = _binding!!
@@ -18,6 +18,15 @@ class ProfileFragment : Fragment() {
     ): View {
         // Inflate the layout for this fragment
         _binding = FragmentProfileBinding.inflate(inflater, container, false)
+
+        binding.btnSaveChangePersonal.setOnClickListener(this)
+        binding.btnSaveChangePass.setOnClickListener(this)
         return binding.root
+    }
+
+    override fun onClick(v: View) {
+        when (v.id) {
+
+        }
     }
 }
